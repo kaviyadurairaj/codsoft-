@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnOnline Courses Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        header {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center; 
+        }
+        header h1 {
+            margin: 0;
+            padding: 0;
+            font-size: 2.5rem;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .logo-img {
+            height: 50px;
+            vertical-align: middle;
+            margin-right: 15px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+        }
+        section {
+            margin: 50px 0;
+        }
+        .course-item {
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .course-item img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover; 
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 0.9rem;
+        }
+        .testimonial {
+            background-color: #e7e7e7;
+            padding: 10px;
+            margin-top: 20px;
+            border-left: 3px solid #007bff;
+            font-style: italic;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #cccccc;
+        }
+        .contact-form button {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="D:\cod2\course.jpg" alt="LearnOnline Logo" class="logo-img">
+        <h1>LearnOnline - Online Courses</h1>
+        <nav>
+            <ul>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#instructors">Instructors</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="courses">
+        <div class="container">
+            <h2>Featured Courses</h2>
+            <div class="course-item">
+                <img src="D:\cod2\web.jpg" alt="Web Development for Beginners">
+                <h3>Web Development for Beginners</h3>
+                <p>Learn the fundamentals of web development, from HTML and CSS to JavaScript.</p>
+            </div>
+            <div class="course-item">
+                <img src="D:\cod2\python.jpg" alt="Introduction to Python">
+                <h3>Introduction to Python</h3>
+                <p>Start your programming journey with one of the most versatile programming languages.</p>
+            </div>
+            <div class="course-item">
+                <img src="D:\cod2\java.jpg" alt="Java Programming Basics">
+                <h3>Java Programming Basics</h3>
+                <p>Dive into Java programming with this beginner-friendly course covering fundamental concepts and hands-on projects.</p>
+            </div>
+        </div>
+    </section>
+    <section id="instructors">
+        <div class="container">
+            <h2>Our Instructors</h2>
+            <div class="course-item">
+                <img src="D:\cod2\women.jpg" alt="Instructor Image" style="width: 100px; height: 100px; border-radius: 50%;">
+                <h3>Ananya.S</h3>
+                <p>Specialist in Web Development and with over 10 years of teaching experience.</p>
+            </div>
+            <div class="course-item">
+                <img src="D:\cod2\men.jpg" alt="Instructor Image" style="width: 100px; height: 100px; border-radius: 50%;">
+                <h3>Vikram.k</h3>
+                <p>An experienced Python instructor with a passion for AI and machine learning.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>What Our Students Say</h2>
+            <div class="testimonial">
+                <p>"This course gave me the confidence to finally start my career in web development. Highly recommended!" - Emily R.</p>
+            </div>
+            <div class="testimonial">
+                <p>"The Python course was a game-changer for me. The instructors are knowledgeable and supportive." - Alex G.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>LearnOnline © 2024. All rights reserved.</p>
+    </footer>
+</body>
+</html>
